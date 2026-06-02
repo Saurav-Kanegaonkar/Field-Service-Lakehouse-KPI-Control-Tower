@@ -1,0 +1,26 @@
+entity_id,entity_name,segment,priority_score,avg_risk_score,avg_quality_score,estimated_impact
+FIE008,Field region 8,Core,100.67,50.0,80.4,887378
+FIE027,Field region 27,Core,95.94,47.9,79.1,833668
+FIE006,Field region 6,Strategic,94.23,53.6,80.1,765118
+FIE020,Field region 20,Strategic,90.62,47.4,80.1,767537
+FIE034,Field region 34,Growth,87.67,52.0,81.3,692116
+FIE012,Field region 12,Strategic,86.79,54.8,80.3,651321
+FIE002,Field region 2,Strategic,86.21,54.1,80.1,648476
+FIE005,Field region 5,Strategic,85.51,48.4,81.0,692162
+FIE019,Field region 19,Core,83.73,50.3,79.8,645604
+FIE014,Field region 14,Growth,82.81,51.4,80.2,624847
+FIE036,Field region 36,Core,81.74,50.0,80.8,624510
+FIE030,Field region 30,Watch,81.38,47.2,82.9,652762
+FIE016,Field region 16,Core,81.04,52.9,81.1,590360
+FIE025,Field region 25,Core,80.85,50.3,80.5,608124
+FIE024,Field region 24,Core,80.69,51.5,80.1,593580
+FIE003,Field region 3,Watch,78.91,49.0,79.6,588300
+FIE035,Field region 35,Growth,78.90,51.0,82.0,581556
+FIE004,Field region 4,Growth,78.41,49.8,80.2,577018
+FIE028,Field region 28,Watch,78.03,49.8,81.5,577438
+FIE029,Field region 29,Strategic,78.01,53.5,80.7,541163
+FIE022,Field region 22,Growth,77.01,51.1,81.3,550725
+FIE017,Field region 17,Core,76.34,51.4,79.1,528970
+FIE021,Field region 21,Core,75.44,50.5,82.5,539242
+FIE018,Field region 18,Core,73.46,49.5,80.4,510884
+FIE023,Field region 23,Watch,73.18,54.4,79.3,459956
