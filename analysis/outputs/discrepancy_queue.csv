@@ -1,0 +1,537 @@
+week_start,region_id,region_name,metric_name,lakehouse_value,bi_report_value,absolute_delta,severity_score,suspected_driver,recommended_audit
+2026-01-05,REG02,Central Field Region 2,completed_orders,3176,3167.01,8.99,20.7,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-02-16,REG09,Mountain Field Region 9,completed_orders,6633,6623.21,9.79,20.6,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-02-09,REG11,Southeast Field Region 11,completed_orders,5648,5638.44,9.56,20.3,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-02-16,REG01,Mountain Field Region 1,completed_orders,6191,6182.52,8.48,19.6,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-02-23,REG03,Southeast Field Region 3,completed_orders,4112,4103.3,8.7,19.6,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-02-16,REG03,Southeast Field Region 3,completed_orders,4010,4001.48,8.52,19.4,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-02-09,REG09,Mountain Field Region 9,completed_orders,6299,6290.17,8.83,19.4,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-04-13,REG03,Southeast Field Region 3,completed_orders,3837,3828.7,8.3,19.1,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-03-23,REG10,Central Field Region 10,completed_orders,3547,3538.97,8.03,19.0,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-04-27,REG10,Central Field Region 10,completed_orders,3121,3113.05,7.95,18.9,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-05-04,REG06,Central Field Region 6,completed_orders,4390,4396.73,6.73,18.8,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-03-16,REG07,Southeast Field Region 7,completed_orders,3782,3791.39,9.39,18.8,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-05-04,REG12,Atlantic Field Region 12,completed_orders,3622,3613.7,8.3,18.8,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-01-19,REG01,Mountain Field Region 1,completed_orders,6306,6298.21,7.79,18.7,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-02-02,REG03,Southeast Field Region 3,completed_orders,4061,4052.97,8.03,18.7,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-03-09,REG03,Southeast Field Region 3,completed_orders,3930,3922.06,7.94,18.6,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-01-26,REG04,Atlantic Field Region 4,completed_orders,3644,3651.47,7.47,18.6,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-03-23,REG06,Central Field Region 6,completed_orders,4203,4209.51,6.51,18.5,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-04-13,REG04,Atlantic Field Region 4,completed_orders,3828,3820.7,7.3,18.3,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-02-23,REG10,Central Field Region 10,completed_orders,3651,3658.27,7.27,18.1,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-04-13,REG01,Mountain Field Region 1,completed_orders,6464,6456.76,7.24,18.0,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-04-20,REG06,Central Field Region 6,completed_orders,4346,4339.85,6.15,18.0,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-01-26,REG06,Central Field Region 6,completed_orders,4371,4376.9,5.9,17.7,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-01-05,REG11,Southeast Field Region 11,completed_orders,6076,6068.43,7.57,17.7,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-02-16,REG02,Central Field Region 2,completed_orders,3360,3366.64,6.64,17.6,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-02-02,REG06,Central Field Region 6,completed_orders,4439,4433.22,5.78,17.6,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-01-05,REG08,Atlantic Field Region 8,completed_orders,3980,3971.85,8.15,17.6,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-03-30,REG11,Southeast Field Region 11,completed_orders,5698,5705.47,7.47,17.6,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-01-12,REG04,Atlantic Field Region 4,completed_orders,4058,4064.56,6.56,17.4,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-05-04,REG04,Atlantic Field Region 4,completed_orders,3854,3860.6,6.6,17.4,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-04-20,REG12,Atlantic Field Region 12,completed_orders,3482,3474.83,7.17,17.3,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-02-02,REG01,Mountain Field Region 1,completed_orders,5940,5946.59,6.59,17.2,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-03-23,REG02,Central Field Region 2,completed_orders,3393,3399.31,6.31,17.2,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-01-05,REG05,Mountain Field Region 5,completed_orders,4861,4867.41,6.41,17.2,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-03-02,REG06,Central Field Region 6,completed_orders,4424,4429.27,5.27,16.9,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-03-02,REG10,Central Field Region 10,completed_orders,3480,3486.32,6.32,16.8,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-04-06,REG08,Atlantic Field Region 8,completed_orders,3818,3810.49,7.51,16.7,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-04-06,REG03,Southeast Field Region 3,completed_orders,4043,4036.61,6.39,16.6,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-02-02,REG02,Central Field Region 2,completed_orders,3333,3338.79,5.79,16.5,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-04-13,REG08,Atlantic Field Region 8,completed_orders,3968,3975.3,7.3,16.5,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-02-16,REG05,Mountain Field Region 5,completed_orders,4765,4770.81,5.81,16.4,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-01-12,REG11,Southeast Field Region 11,completed_orders,6008,6014.54,6.54,16.4,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-03-16,REG10,Central Field Region 10,completed_orders,3430,3435.94,5.94,16.3,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-03-23,REG12,Atlantic Field Region 12,completed_orders,3455,3461.06,6.06,15.9,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-03-23,REG01,Mountain Field Region 1,completed_orders,6603,6608.33,5.33,15.5,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-02-23,REG06,Central Field Region 6,completed_orders,4477,4472.86,4.14,15.4,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-01-12,REG10,Central Field Region 10,completed_orders,3554,3559.22,5.22,15.4,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-02-09,REG06,Central Field Region 6,completed_orders,4144,4139.95,4.05,15.3,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-03-23,REG11,Southeast Field Region 11,completed_orders,5984,5989.62,5.62,15.2,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-04-27,REG05,Mountain Field Region 5,completed_orders,4961,4956.24,4.76,15.1,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-01-19,REG10,Central Field Region 10,completed_orders,3205,3199.97,5.03,15.1,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-01-26,REG01,Mountain Field Region 1,completed_orders,6359,6363.92,4.92,15.0,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-01-19,REG09,Mountain Field Region 9,completed_orders,6762,6756.56,5.44,15.0,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-03-23,REG09,Mountain Field Region 9,completed_orders,6622,6616.55,5.45,15.0,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-04-06,REG10,Central Field Region 10,completed_orders,3373,3368.08,4.92,15.0,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-04-06,REG01,Mountain Field Region 1,completed_orders,6399,6394.24,4.76,14.8,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-04-20,REG04,Atlantic Field Region 4,completed_orders,3902,3906.57,4.57,14.8,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-03-16,REG05,Mountain Field Region 5,completed_orders,4686,4690.56,4.56,14.8,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-04-20,REG05,Mountain Field Region 5,completed_orders,4903,4907.46,4.46,14.7,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-01-26,REG07,Southeast Field Region 7,completed_orders,4117,4123.23,6.23,14.7,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-04-20,REG09,Mountain Field Region 9,completed_orders,6668,6673.27,5.27,14.7,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-01-12,REG07,Southeast Field Region 7,completed_orders,4031,4037.18,6.18,14.6,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-05-04,REG09,Mountain Field Region 9,completed_orders,6816,6821.16,5.16,14.6,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-03-16,REG02,Central Field Region 2,completed_orders,3541,3536.76,4.24,14.5,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-02-02,REG05,Mountain Field Region 5,completed_orders,5058,5053.67,4.33,14.5,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-05-04,REG05,Mountain Field Region 5,completed_orders,5150,5154.2,4.2,14.4,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-02-16,REG06,Central Field Region 6,cost_per_work_order,145.13,148.75,3.62,14.4,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-03-16,REG09,Mountain Field Region 9,completed_orders,6303,6308.04,5.04,14.4,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-01-05,REG10,Central Field Region 10,completed_orders,3496,3491.55,4.45,14.4,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-03-09,REG10,Central Field Region 10,completed_orders,3406,3401.64,4.36,14.3,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-05-04,REG10,Central Field Region 10,completed_orders,3595,3590.63,4.37,14.3,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-01-26,REG11,Southeast Field Region 11,completed_orders,6119,6123.87,4.87,14.2,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-03-09,REG01,Mountain Field Region 1,completed_orders,6690,6685.76,4.24,14.1,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-04-20,REG07,Southeast Field Region 7,completed_orders,4135,4140.68,5.68,14.0,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-04-27,REG07,Southeast Field Region 7,completed_orders,3826,3831.67,5.67,14.0,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-03-16,REG03,Southeast Field Region 3,completed_orders,4079,4074.66,4.34,13.9,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-03-09,REG09,Mountain Field Region 9,completed_orders,6059,6054.47,4.53,13.8,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-01-05,REG06,Central Field Region 6,cost_per_work_order,143.28,146.27,2.99,13.6,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-01-19,REG11,Southeast Field Region 11,completed_orders,6104,6099.58,4.42,13.6,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-03-02,REG02,Central Field Region 2,cost_per_work_order,138.31,141.95,3.64,13.4,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-02-02,REG09,Mountain Field Region 9,completed_orders,6077,6072.78,4.22,13.4,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-01-12,REG06,Central Field Region 6,first_visit_fix_rate,66.89,69.2,2.31,13.3,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-02-23,REG08,Atlantic Field Region 8,completed_orders,3995,3990.1,4.9,13.3,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-03-30,REG09,Mountain Field Region 9,completed_orders,6829,6824.85,4.15,13.3,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-03-02,REG07,Southeast Field Region 7,completed_orders,4048,4042.91,5.09,13.2,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-01-19,REG08,Atlantic Field Region 8,completed_orders,4057,4052.24,4.76,13.2,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-04-27,REG04,Atlantic Field Region 4,cost_per_work_order,147.69,151.2,3.51,13.1,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-01-26,REG06,Central Field Region 6,cost_per_work_order,138.21,135.72,2.5,13.0,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-02-23,REG05,Mountain Field Region 5,cost_per_work_order,143.81,147.11,3.31,12.9,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-01-12,REG06,Central Field Region 6,cost_per_work_order,138.89,136.5,2.39,12.9,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-02-23,REG01,Mountain Field Region 1,cost_per_work_order,128.64,125.16,3.48,12.8,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-03-23,REG06,Central Field Region 6,first_visit_fix_rate,68.7,66.72,1.98,12.8,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-04-13,REG06,Central Field Region 6,cost_per_work_order,143.65,141.33,2.33,12.8,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-02-16,REG05,Mountain Field Region 5,cost_per_work_order,141.75,144.88,3.14,12.7,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-02-16,REG08,Atlantic Field Region 8,completed_orders,4203,4198.64,4.36,12.6,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-02-09,REG04,Atlantic Field Region 4,cost_per_work_order,154.14,157.2,3.06,12.5,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-05-04,REG10,Central Field Region 10,cost_per_work_order,141.87,145.11,3.24,12.5,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-02-16,REG06,Central Field Region 6,on_time_arrival_rate,83.35,85.34,1.99,12.4,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-03-02,REG06,Central Field Region 6,first_visit_fix_rate,67.1,68.78,1.68,12.4,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-04-13,REG06,Central Field Region 6,repeat_visit_rate,14.68,16.85,2.17,12.4,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-04-27,REG03,Southeast Field Region 3,cost_per_work_order,137.6,140.93,3.33,12.3,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-03-30,REG04,Atlantic Field Region 4,cost_per_work_order,149.3,146.52,2.78,12.2,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-03-30,REG06,Central Field Region 6,repeat_visit_rate,15.57,17.53,1.96,12.2,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-01-26,REG09,Mountain Field Region 9,cost_per_work_order,131.55,135.12,3.57,12.2,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-04-06,REG06,Central Field Region 6,on_time_arrival_rate,84.07,85.77,1.69,12.1,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-03-02,REG01,Mountain Field Region 1,cost_per_work_order,140.21,143.05,2.84,12.0,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-03-16,REG06,Central Field Region 6,first_visit_fix_rate,67.73,69.12,1.39,12.0,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-02-16,REG11,Southeast Field Region 11,cost_per_work_order,129.9,133.35,3.45,12.0,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-01-19,REG01,Mountain Field Region 1,cost_per_work_order,134.31,131.55,2.77,11.9,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-01-19,REG02,Central Field Region 2,cost_per_work_order,137.59,135.16,2.43,11.9,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-04-13,REG05,Mountain Field Region 5,cost_per_work_order,143.06,140.52,2.54,11.9,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-02-02,REG06,Central Field Region 6,repeat_visit_rate,14.68,13.03,1.66,11.9,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-02-02,REG06,Central Field Region 6,on_time_arrival_rate,84.15,82.64,1.51,11.9,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-02-23,REG10,Central Field Region 10,cost_per_work_order,139.27,136.52,2.75,11.9,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-01-05,REG02,Central Field Region 2,first_visit_fix_rate,74.46,72.5,1.96,11.8,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-03-16,REG02,Central Field Region 2,cost_per_work_order,138.27,140.61,2.34,11.8,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-03-02,REG04,Atlantic Field Region 4,repeat_visit_rate,15.52,18.22,2.7,11.8,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-04-20,REG06,Central Field Region 6,repeat_visit_rate,14.28,12.69,1.59,11.8,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-02-09,REG06,Central Field Region 6,on_time_arrival_rate,83.12,81.73,1.39,11.7,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-03-02,REG06,Central Field Region 6,technician_utilization,92.34,90.73,1.62,11.7,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-03-09,REG06,Central Field Region 6,on_time_arrival_rate,83.91,82.57,1.34,11.7,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-03-09,REG06,Central Field Region 6,cost_per_work_order,136.97,135.62,1.36,11.7,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-03-16,REG06,Central Field Region 6,technician_utilization,87.79,86.15,1.64,11.7,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-04-27,REG06,Central Field Region 6,first_visit_fix_rate,69.0,67.79,1.21,11.7,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-01-12,REG02,Central Field Region 2,on_time_arrival_rate,84.15,86.28,2.13,11.6,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-01-19,REG02,Central Field Region 2,repeat_visit_rate,13.73,16.05,2.32,11.6,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-02-02,REG02,Central Field Region 2,cost_per_work_order,139.14,137.01,2.13,11.6,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-03-09,REG02,Central Field Region 2,repeat_visit_rate,13.56,15.89,2.33,11.6,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-01-12,REG04,Atlantic Field Region 4,cost_per_work_order,145.07,147.33,2.27,11.6,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-04-06,REG04,Atlantic Field Region 4,first_visit_fix_rate,70.99,72.94,1.95,11.6,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-01-19,REG06,Central Field Region 6,first_visit_fix_rate,68.29,69.4,1.11,11.6,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-02-02,REG06,Central Field Region 6,technician_utilization,94.76,93.24,1.51,11.6,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-04-06,REG06,Central Field Region 6,repeat_visit_rate,14.59,13.22,1.37,11.6,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-01-05,REG11,Southeast Field Region 11,cost_per_work_order,129.95,133.0,3.05,11.6,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-01-05,REG01,Mountain Field Region 1,cost_per_work_order,139.53,141.92,2.39,11.5,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-02-16,REG01,Mountain Field Region 1,first_visit_fix_rate,67.52,69.62,2.1,11.5,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-02-23,REG02,Central Field Region 2,on_time_arrival_rate,86.52,88.55,2.03,11.5,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-04-13,REG02,Central Field Region 2,on_time_arrival_rate,86.04,88.1,2.06,11.5,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-04-20,REG04,Atlantic Field Region 4,first_visit_fix_rate,70.78,68.88,1.9,11.5,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-02-16,REG05,Mountain Field Region 5,on_time_arrival_rate,83.28,85.47,2.19,11.5,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-03-02,REG05,Mountain Field Region 5,cost_per_work_order,142.97,140.77,2.2,11.5,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-03-02,REG02,Central Field Region 2,first_visit_fix_rate,72.7,74.42,1.72,11.4,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-02-16,REG03,Southeast Field Region 3,cost_per_work_order,139.08,136.5,2.58,11.4,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-03-16,REG04,Atlantic Field Region 4,on_time_arrival_rate,81.3,79.16,2.15,11.4,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-04-13,REG05,Mountain Field Region 5,first_visit_fix_rate,77.23,75.44,1.79,11.4,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-04-27,REG05,Mountain Field Region 5,repeat_visit_rate,17.3,19.56,2.26,11.4,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-03-23,REG09,Mountain Field Region 9,cost_per_work_order,131.42,134.35,2.93,11.4,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-02-23,REG02,Central Field Region 2,first_visit_fix_rate,74.47,72.81,1.66,11.3,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-04-27,REG02,Central Field Region 2,repeat_visit_rate,13.73,15.8,2.07,11.3,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-04-06,REG04,Atlantic Field Region 4,cost_per_work_order,149.68,151.74,2.06,11.3,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-02-09,REG05,Mountain Field Region 5,first_visit_fix_rate,75.74,73.99,1.75,11.3,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-03-02,REG05,Mountain Field Region 5,repeat_visit_rate,15.57,17.72,2.15,11.3,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-02-09,REG06,Central Field Region 6,repeat_visit_rate,15.0,16.12,1.13,11.3,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-03-16,REG09,Mountain Field Region 9,cost_per_work_order,125.19,122.36,2.84,11.3,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-01-05,REG10,Central Field Region 10,first_visit_fix_rate,67.57,69.54,1.96,11.3,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-01-05,REG12,Atlantic Field Region 12,cost_per_work_order,139.38,136.61,2.77,11.3,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-03-23,REG01,Mountain Field Region 1,cost_per_work_order,142.81,140.59,2.22,11.2,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-02-02,REG02,Central Field Region 2,first_visit_fix_rate,72.98,71.39,1.59,11.2,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-04-13,REG02,Central Field Region 2,first_visit_fix_rate,75.29,73.74,1.55,11.2,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-01-19,REG04,Atlantic Field Region 4,repeat_visit_rate,16.28,14.12,2.15,11.2,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-04-20,REG05,Mountain Field Region 5,cost_per_work_order,141.4,143.3,1.9,11.2,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-02-16,REG06,Central Field Region 6,first_visit_fix_rate,66.56,65.74,0.83,11.2,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-02-16,REG06,Central Field Region 6,technician_utilization,91.09,92.23,1.15,11.2,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-04-20,REG07,Southeast Field Region 7,cost_per_work_order,126.57,130.44,3.87,11.2,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-04-20,REG09,Mountain Field Region 9,first_visit_fix_rate,75.65,73.29,2.36,11.2,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-01-12,REG10,Central Field Region 10,first_visit_fix_rate,69.18,71.0,1.82,11.2,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-03-30,REG11,Southeast Field Region 11,cost_per_work_order,128.21,125.46,2.76,11.2,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-04-06,REG12,Atlantic Field Region 12,first_visit_fix_rate,67.79,70.05,2.26,11.2,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-04-13,REG01,Mountain Field Region 1,cost_per_work_order,134.37,132.28,2.09,11.1,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-01-26,REG02,Central Field Region 2,first_visit_fix_rate,75.34,73.88,1.46,11.1,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-03-16,REG02,Central Field Region 2,on_time_arrival_rate,85.55,87.27,1.71,11.1,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-04-06,REG02,Central Field Region 2,on_time_arrival_rate,85.33,83.59,1.74,11.1,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-04-06,REG05,Mountain Field Region 5,first_visit_fix_rate,76.3,74.73,1.57,11.1,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-02-23,REG06,Central Field Region 6,on_time_arrival_rate,84.53,83.68,0.85,11.1,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-03-23,REG06,Central Field Region 6,repeat_visit_rate,13.8,14.79,0.99,11.1,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-03-30,REG06,Central Field Region 6,on_time_arrival_rate,86.34,87.2,0.86,11.1,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-04-20,REG09,Mountain Field Region 9,cost_per_work_order,129.12,126.44,2.67,11.1,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-04-06,REG10,Central Field Region 10,cost_per_work_order,135.15,133.1,2.05,11.1,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-02-23,REG11,Southeast Field Region 11,cost_per_work_order,128.4,125.75,2.64,11.1,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-02-09,REG01,Mountain Field Region 1,on_time_arrival_rate,84.49,86.54,2.05,11.0,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-02-16,REG01,Mountain Field Region 1,on_time_arrival_rate,86.43,84.42,2.01,11.0,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-04-27,REG02,Central Field Region 2,first_visit_fix_rate,72.78,74.19,1.41,11.0,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-04-27,REG03,Southeast Field Region 3,first_visit_fix_rate,76.15,78.09,1.94,11.0,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-03-23,REG06,Central Field Region 6,on_time_arrival_rate,83.81,84.63,0.83,11.0,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-04-06,REG08,Atlantic Field Region 8,cost_per_work_order,131.17,134.53,3.37,11.0,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-01-12,REG02,Central Field Region 2,first_visit_fix_rate,74.97,76.29,1.32,10.9,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-02-02,REG04,Atlantic Field Region 4,first_visit_fix_rate,70.5,69.04,1.45,10.9,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-04-27,REG04,Atlantic Field Region 4,on_time_arrival_rate,82.52,80.8,1.72,10.9,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-01-12,REG05,Mountain Field Region 5,cost_per_work_order,142.49,140.8,1.69,10.9,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-02-09,REG05,Mountain Field Region 5,on_time_arrival_rate,84.25,85.9,1.65,10.9,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-03-23,REG05,Mountain Field Region 5,repeat_visit_rate,15.18,13.34,1.84,10.9,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-01-19,REG06,Central Field Region 6,technician_utilization,93.2,92.32,0.88,10.9,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-01-26,REG06,Central Field Region 6,repeat_visit_rate,15.37,14.61,0.76,10.9,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-01-26,REG06,Central Field Region 6,technician_utilization,89.94,90.83,0.89,10.9,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-05-04,REG06,Central Field Region 6,technician_utilization,91.34,90.53,0.81,10.9,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-04-20,REG10,Central Field Region 10,repeat_visit_rate,14.12,12.04,2.08,10.9,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-01-12,REG01,Mountain Field Region 1,first_visit_fix_rate,68.32,66.76,1.56,10.8,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-02-23,REG01,Mountain Field Region 1,first_visit_fix_rate,65.62,64.01,1.6,10.8,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-05-04,REG01,Mountain Field Region 1,first_visit_fix_rate,66.74,68.29,1.55,10.8,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-01-19,REG03,Southeast Field Region 3,on_time_arrival_rate,85.47,87.6,2.14,10.8,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-01-26,REG03,Southeast Field Region 3,first_visit_fix_rate,76.77,74.97,1.8,10.8,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-03-30,REG03,Southeast Field Region 3,on_time_arrival_rate,84.79,86.94,2.14,10.8,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-04-20,REG03,Southeast Field Region 3,first_visit_fix_rate,76.06,77.84,1.78,10.8,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-03-16,REG04,Atlantic Field Region 4,cost_per_work_order,145.31,146.92,1.62,10.8,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-05-04,REG05,Mountain Field Region 5,first_visit_fix_rate,75.52,76.86,1.34,10.8,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-03-23,REG06,Central Field Region 6,technician_utilization,90.59,91.34,0.76,10.8,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-02-09,REG10,Central Field Region 10,on_time_arrival_rate,84.77,86.58,1.81,10.8,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-01-19,REG11,Southeast Field Region 11,on_time_arrival_rate,83.92,86.33,2.41,10.8,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-04-06,REG11,Southeast Field Region 11,first_visit_fix_rate,75.37,73.31,2.06,10.8,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-01-19,REG01,Mountain Field Region 1,first_visit_fix_rate,65.83,64.34,1.49,10.7,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-01-26,REG01,Mountain Field Region 1,cost_per_work_order,136.05,137.8,1.74,10.7,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-01-05,REG02,Central Field Region 2,on_time_arrival_rate,85.08,83.69,1.39,10.7,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-02-16,REG02,Central Field Region 2,cost_per_work_order,129.79,131.21,1.42,10.7,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-04-27,REG03,Southeast Field Region 3,repeat_visit_rate,13.75,15.92,2.17,10.7,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-01-19,REG04,Atlantic Field Region 4,first_visit_fix_rate,70.32,69.02,1.3,10.7,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-02-16,REG04,Atlantic Field Region 4,technician_utilization,87.26,85.41,1.84,10.7,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-04-27,REG05,Mountain Field Region 5,cost_per_work_order,145.57,144.09,1.48,10.7,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-04-06,REG10,Central Field Region 10,on_time_arrival_rate,85.25,86.96,1.71,10.7,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-04-13,REG10,Central Field Region 10,cost_per_work_order,133.61,131.86,1.75,10.7,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-01-26,REG11,Southeast Field Region 11,first_visit_fix_rate,75.47,77.45,1.99,10.7,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-03-09,REG11,Southeast Field Region 11,on_time_arrival_rate,84.62,86.99,2.37,10.7,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-05-04,REG11,Southeast Field Region 11,cost_per_work_order,129.23,126.92,2.31,10.7,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-05-04,REG12,Atlantic Field Region 12,cost_per_work_order,137.05,134.77,2.28,10.7,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-04-06,REG01,Mountain Field Region 1,on_time_arrival_rate,85.77,87.42,1.65,10.6,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-01-26,REG02,Central Field Region 2,cost_per_work_order,130.51,129.19,1.32,10.6,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-02-02,REG02,Central Field Region 2,technician_utilization,93.19,91.56,1.63,10.6,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-04-13,REG02,Central Field Region 2,cost_per_work_order,130.7,129.42,1.28,10.6,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-04-20,REG02,Central Field Region 2,repeat_visit_rate,13.72,12.28,1.44,10.6,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-01-19,REG03,Southeast Field Region 3,cost_per_work_order,141.82,139.88,1.94,10.6,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-03-02,REG04,Atlantic Field Region 4,cost_per_work_order,150.23,148.76,1.47,10.6,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-03-09,REG05,Mountain Field Region 5,first_visit_fix_rate,74.63,75.84,1.21,10.6,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-04-20,REG05,Mountain Field Region 5,on_time_arrival_rate,84.01,85.41,1.4,10.6,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-01-26,REG09,Mountain Field Region 9,first_visit_fix_rate,76.06,77.99,1.94,10.6,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-02-16,REG10,Central Field Region 10,on_time_arrival_rate,87.34,85.65,1.68,10.6,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-03-02,REG10,Central Field Region 10,cost_per_work_order,137.93,139.56,1.63,10.6,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-02-02,REG11,Southeast Field Region 11,on_time_arrival_rate,85.84,88.06,2.22,10.6,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-03-02,REG12,Atlantic Field Region 12,cost_per_work_order,142.17,140.01,2.17,10.6,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-01-12,REG02,Central Field Region 2,repeat_visit_rate,12.44,11.11,1.33,10.5,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-01-19,REG02,Central Field Region 2,first_visit_fix_rate,75.08,76.18,1.09,10.5,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-02-02,REG02,Central Field Region 2,repeat_visit_rate,12.8,14.18,1.38,10.5,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-03-16,REG02,Central Field Region 2,technician_utilization,93.17,91.72,1.45,10.5,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-03-23,REG02,Central Field Region 2,cost_per_work_order,134.5,135.72,1.22,10.5,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-05-04,REG02,Central Field Region 2,technician_utilization,91.5,90.01,1.49,10.5,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-03-23,REG03,Southeast Field Region 3,repeat_visit_rate,14.34,16.36,2.01,10.5,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-01-26,REG04,Atlantic Field Region 4,repeat_visit_rate,16.26,14.77,1.49,10.5,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-03-16,REG04,Atlantic Field Region 4,technician_utilization,91.47,89.8,1.67,10.5,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-04-13,REG04,Atlantic Field Region 4,cost_per_work_order,146.0,147.38,1.39,10.5,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-04-27,REG04,Atlantic Field Region 4,repeat_visit_rate,16.39,17.91,1.52,10.5,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-05-04,REG04,Atlantic Field Region 4,cost_per_work_order,149.06,150.47,1.41,10.5,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-04-27,REG05,Mountain Field Region 5,on_time_arrival_rate,82.67,83.99,1.31,10.5,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-01-19,REG09,Mountain Field Region 9,first_visit_fix_rate,76.7,78.59,1.89,10.5,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-02-02,REG10,Central Field Region 10,first_visit_fix_rate,68.27,66.95,1.33,10.5,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-03-30,REG10,Central Field Region 10,cost_per_work_order,128.59,130.18,1.59,10.5,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-01-26,REG11,Southeast Field Region 11,on_time_arrival_rate,86.78,88.97,2.19,10.5,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-03-16,REG11,Southeast Field Region 11,on_time_arrival_rate,85.52,87.67,2.15,10.5,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-04-06,REG11,Southeast Field Region 11,on_time_arrival_rate,87.25,85.09,2.15,10.5,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-01-05,REG01,Mountain Field Region 1,first_visit_fix_rate,67.8,66.49,1.3,10.4,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-02-02,REG01,Mountain Field Region 1,cost_per_work_order,134.05,135.59,1.54,10.4,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-03-16,REG01,Mountain Field Region 1,first_visit_fix_rate,67.87,69.17,1.31,10.4,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-03-30,REG01,Mountain Field Region 1,repeat_visit_rate,13.32,11.67,1.64,10.4,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-05-04,REG01,Mountain Field Region 1,on_time_arrival_rate,85.09,83.59,1.5,10.4,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-03-23,REG02,Central Field Region 2,first_visit_fix_rate,72.11,73.13,1.02,10.4,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-03-23,REG02,Central Field Region 2,on_time_arrival_rate,86.41,87.56,1.15,10.4,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-01-19,REG04,Atlantic Field Region 4,cost_per_work_order,153.69,152.39,1.3,10.4,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-02-16,REG04,Atlantic Field Region 4,first_visit_fix_rate,69.04,67.91,1.13,10.4,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-02-23,REG04,Atlantic Field Region 4,first_visit_fix_rate,68.99,67.9,1.09,10.4,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-02-09,REG05,Mountain Field Region 5,cost_per_work_order,145.41,144.19,1.22,10.4,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-03-09,REG05,Mountain Field Region 5,on_time_arrival_rate,83.74,82.45,1.29,10.4,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-03-30,REG05,Mountain Field Region 5,repeat_visit_rate,15.1,16.42,1.33,10.4,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-04-13,REG05,Mountain Field Region 5,on_time_arrival_rate,84.91,86.14,1.24,10.4,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-03-16,REG09,Mountain Field Region 9,repeat_visit_rate,11.58,9.32,2.25,10.4,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-01-12,REG10,Central Field Region 10,repeat_visit_rate,13.32,11.66,1.66,10.4,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-04-13,REG10,Central Field Region 10,repeat_visit_rate,13.88,12.24,1.65,10.4,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-04-06,REG11,Southeast Field Region 11,cost_per_work_order,131.89,133.95,2.06,10.4,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-02-16,REG01,Mountain Field Region 1,repeat_visit_rate,13.58,15.18,1.6,10.3,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-03-16,REG01,Mountain Field Region 1,repeat_visit_rate,13.54,15.08,1.55,10.3,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-02-16,REG02,Central Field Region 2,technician_utilization,91.66,90.34,1.31,10.3,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-01-26,REG03,Southeast Field Region 3,on_time_arrival_rate,82.93,84.6,1.67,10.3,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-01-05,REG04,Atlantic Field Region 4,cost_per_work_order,153.19,151.96,1.22,10.3,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-02-09,REG04,Atlantic Field Region 4,first_visit_fix_rate,71.5,72.52,1.02,10.3,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-04-20,REG04,Atlantic Field Region 4,cost_per_work_order,149.1,150.34,1.23,10.3,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-04-27,REG04,Atlantic Field Region 4,first_visit_fix_rate,69.81,70.87,1.06,10.3,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-01-19,REG05,Mountain Field Region 5,technician_utilization,91.27,92.63,1.36,10.3,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-02-02,REG05,Mountain Field Region 5,on_time_arrival_rate,83.13,84.31,1.18,10.3,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-04-27,REG09,Mountain Field Region 9,cost_per_work_order,130.04,127.99,2.05,10.3,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-01-26,REG10,Central Field Region 10,technician_utilization,91.74,90.06,1.68,10.3,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-02-16,REG10,Central Field Region 10,repeat_visit_rate,13.93,12.35,1.58,10.3,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-04-27,REG10,Central Field Region 10,on_time_arrival_rate,85.3,83.86,1.44,10.3,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-02-02,REG01,Mountain Field Region 1,repeat_visit_rate,14.44,12.97,1.47,10.2,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-03-02,REG01,Mountain Field Region 1,repeat_visit_rate,13.91,15.35,1.44,10.2,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-03-23,REG01,Mountain Field Region 1,first_visit_fix_rate,66.21,67.36,1.16,10.2,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-01-12,REG02,Central Field Region 2,technician_utilization,95.77,96.96,1.19,10.2,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-01-26,REG02,Central Field Region 2,on_time_arrival_rate,84.37,83.4,0.97,10.2,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-03-09,REG02,Central Field Region 2,technician_utilization,94.04,95.21,1.17,10.2,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-04-20,REG02,Central Field Region 2,first_visit_fix_rate,74.56,75.39,0.83,10.2,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-03-30,REG03,Southeast Field Region 3,first_visit_fix_rate,76.46,75.08,1.38,10.2,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-03-09,REG04,Atlantic Field Region 4,on_time_arrival_rate,82.42,83.57,1.15,10.2,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-05-04,REG04,Atlantic Field Region 4,first_visit_fix_rate,71.32,72.27,0.96,10.2,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-05-04,REG04,Atlantic Field Region 4,technician_utilization,89.97,88.59,1.38,10.2,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-04-20,REG05,Mountain Field Region 5,first_visit_fix_rate,77.86,78.76,0.9,10.2,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-04-27,REG05,Mountain Field Region 5,technician_utilization,92.0,90.72,1.28,10.2,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-01-12,REG07,Southeast Field Region 7,cost_per_work_order,126.09,123.06,3.02,10.2,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-01-26,REG07,Southeast Field Region 7,cost_per_work_order,119.82,116.77,3.04,10.2,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-03-30,REG09,Mountain Field Region 9,first_visit_fix_rate,75.57,73.95,1.63,10.2,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-01-19,REG10,Central Field Region 10,technician_utilization,84.24,82.6,1.64,10.2,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-02-02,REG10,Central Field Region 10,cost_per_work_order,135.95,134.66,1.29,10.2,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-03-09,REG10,Central Field Region 10,technician_utilization,86.69,85.1,1.59,10.2,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-03-23,REG10,Central Field Region 10,technician_utilization,91.24,89.66,1.58,10.2,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-02-23,REG01,Mountain Field Region 1,repeat_visit_rate,13.58,12.19,1.39,10.1,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-02-09,REG02,Central Field Region 2,repeat_visit_rate,13.84,14.8,0.96,10.1,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-05-04,REG02,Central Field Region 2,on_time_arrival_rate,85.82,84.9,0.93,10.1,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-02-23,REG03,Southeast Field Region 3,cost_per_work_order,134.11,135.61,1.5,10.1,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-03-09,REG03,Southeast Field Region 3,cost_per_work_order,134.84,136.35,1.51,10.1,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-03-16,REG03,Southeast Field Region 3,technician_utilization,89.71,87.86,1.85,10.1,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-04-13,REG03,Southeast Field Region 3,first_visit_fix_rate,75.87,77.19,1.32,10.1,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-02-02,REG05,Mountain Field Region 5,first_visit_fix_rate,75.51,76.36,0.86,10.1,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-02-16,REG05,Mountain Field Region 5,first_visit_fix_rate,76.03,76.87,0.84,10.1,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-03-16,REG05,Mountain Field Region 5,technician_utilization,88.97,87.78,1.19,10.1,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-01-05,REG08,Atlantic Field Region 8,cost_per_work_order,130.0,127.38,2.62,10.1,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-04-27,REG08,Atlantic Field Region 8,cost_per_work_order,127.9,125.26,2.64,10.1,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-03-02,REG10,Central Field Region 10,technician_utilization,92.66,91.17,1.49,10.1,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-03-30,REG10,Central Field Region 10,technician_utilization,87.94,86.44,1.5,10.1,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-03-23,REG11,Southeast Field Region 11,first_visit_fix_rate,74.65,73.11,1.54,10.1,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-05-04,REG11,Southeast Field Region 11,first_visit_fix_rate,76.63,75.08,1.56,10.1,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-04-06,REG12,Atlantic Field Region 12,on_time_arrival_rate,84.76,82.97,1.79,10.1,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-01-19,REG01,Mountain Field Region 1,technician_utilization,89.31,87.9,1.41,10.0,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-02-02,REG02,Central Field Region 2,on_time_arrival_rate,83.46,82.65,0.81,10.0,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-02-09,REG02,Central Field Region 2,technician_utilization,90.69,89.73,0.96,10.0,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-03-02,REG02,Central Field Region 2,on_time_arrival_rate,85.59,84.75,0.84,10.0,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-03-30,REG02,Central Field Region 2,technician_utilization,90.76,91.75,0.99,10.0,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-01-19,REG03,Southeast Field Region 3,repeat_visit_rate,12.52,10.94,1.58,10.0,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-02-16,REG03,Southeast Field Region 3,on_time_arrival_rate,85.97,87.43,1.46,10.0,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-01-12,REG04,Atlantic Field Region 4,technician_utilization,91.67,90.55,1.13,10.0,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-01-26,REG04,Atlantic Field Region 4,technician_utilization,86.06,87.2,1.14,10.0,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-02-23,REG04,Atlantic Field Region 4,on_time_arrival_rate,83.14,82.2,0.94,10.0,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-05-04,REG04,Atlantic Field Region 4,repeat_visit_rate,15.39,16.45,1.06,10.0,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-01-05,REG05,Mountain Field Region 5,first_visit_fix_rate,75.14,74.32,0.82,10.0,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-04-06,REG05,Mountain Field Region 5,repeat_visit_rate,16.88,15.87,1.0,10.0,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-03-23,REG11,Southeast Field Region 11,repeat_visit_rate,12.99,14.87,1.87,10.0,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-01-19,REG12,Atlantic Field Region 12,cost_per_work_order,140.66,142.31,1.65,10.0,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-01-26,REG01,Mountain Field Region 1,first_visit_fix_rate,68.63,69.55,0.92,9.9,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-03-30,REG02,Central Field Region 2,repeat_visit_rate,13.81,14.65,0.83,9.9,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-03-30,REG02,Central Field Region 2,on_time_arrival_rate,84.28,85.03,0.75,9.9,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-04-13,REG02,Central Field Region 2,repeat_visit_rate,14.05,13.26,0.79,9.9,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-01-05,REG03,Southeast Field Region 3,on_time_arrival_rate,84.67,83.35,1.32,9.9,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-03-23,REG03,Southeast Field Region 3,first_visit_fix_rate,75.67,76.85,1.17,9.9,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-04-06,REG03,Southeast Field Region 3,cost_per_work_order,142.65,143.96,1.31,9.9,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-04-13,REG03,Southeast Field Region 3,repeat_visit_rate,15.15,16.63,1.48,9.9,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-04-13,REG03,Southeast Field Region 3,cost_per_work_order,138.01,139.33,1.33,9.9,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-01-12,REG10,Central Field Region 10,on_time_arrival_rate,85.89,84.78,1.11,9.9,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-02-09,REG10,Central Field Region 10,technician_utilization,92.97,94.25,1.27,9.9,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-02-23,REG11,Southeast Field Region 11,repeat_visit_rate,12.53,14.38,1.85,9.9,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-04-06,REG11,Southeast Field Region 11,repeat_visit_rate,13.45,11.67,1.78,9.9,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-01-19,REG01,Mountain Field Region 1,on_time_arrival_rate,87.02,86.01,1.01,9.8,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-01-05,REG02,Central Field Region 2,technician_utilization,86.77,85.98,0.79,9.8,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-02-02,REG03,Southeast Field Region 3,first_visit_fix_rate,75.96,77.08,1.12,9.8,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-02-23,REG03,Southeast Field Region 3,technician_utilization,92.3,90.78,1.52,9.8,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-01-12,REG04,Atlantic Field Region 4,on_time_arrival_rate,81.66,82.47,0.81,9.8,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-04-13,REG04,Atlantic Field Region 4,on_time_arrival_rate,83.09,82.34,0.76,9.8,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-01-12,REG05,Mountain Field Region 5,on_time_arrival_rate,83.9,84.66,0.76,9.8,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-04-20,REG05,Mountain Field Region 5,technician_utilization,90.1,91.03,0.93,9.8,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-02-02,REG09,Mountain Field Region 9,cost_per_work_order,118.92,117.32,1.61,9.8,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-03-02,REG10,Central Field Region 10,on_time_arrival_rate,84.52,85.54,1.03,9.8,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-03-23,REG10,Central Field Region 10,first_visit_fix_rate,66.98,67.85,0.87,9.8,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-01-05,REG11,Southeast Field Region 11,first_visit_fix_rate,74.01,72.64,1.37,9.8,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-03-02,REG11,Southeast Field Region 11,cost_per_work_order,135.76,137.3,1.55,9.8,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-01-05,REG12,Atlantic Field Region 12,on_time_arrival_rate,85.71,84.2,1.51,9.8,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-02-23,REG12,Atlantic Field Region 12,on_time_arrival_rate,85.32,83.83,1.49,9.8,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-03-30,REG12,Atlantic Field Region 12,cost_per_work_order,142.17,143.66,1.5,9.8,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-03-02,REG03,Southeast Field Region 3,repeat_visit_rate,14.54,13.22,1.32,9.7,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-03-16,REG03,Southeast Field Region 3,on_time_arrival_rate,86.27,87.48,1.21,9.7,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-05-04,REG03,Southeast Field Region 3,technician_utilization,89.61,88.17,1.45,9.7,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-03-02,REG04,Atlantic Field Region 4,technician_utilization,89.6,90.47,0.87,9.7,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-01-05,REG05,Mountain Field Region 5,technician_utilization,90.87,90.02,0.85,9.7,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-02-02,REG05,Mountain Field Region 5,repeat_visit_rate,14.65,15.42,0.76,9.7,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-03-09,REG05,Mountain Field Region 5,technician_utilization,95.39,94.54,0.84,9.7,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-04-13,REG05,Mountain Field Region 5,technician_utilization,84.43,85.2,0.77,9.7,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-04-20,REG08,Atlantic Field Region 8,cost_per_work_order,125.33,123.05,2.28,9.7,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-01-05,REG09,Mountain Field Region 9,repeat_visit_rate,11.99,10.34,1.65,9.7,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-01-19,REG09,Mountain Field Region 9,on_time_arrival_rate,88.79,87.31,1.48,9.7,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-03-16,REG10,Central Field Region 10,technician_utilization,87.93,89.06,1.13,9.7,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-03-30,REG10,Central Field Region 10,on_time_arrival_rate,83.58,84.51,0.93,9.7,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-04-06,REG10,Central Field Region 10,technician_utilization,87.46,88.51,1.06,9.7,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-04-20,REG10,Central Field Region 10,first_visit_fix_rate,69.35,70.13,0.78,9.7,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-04-13,REG11,Southeast Field Region 11,on_time_arrival_rate,87.76,89.25,1.49,9.7,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-01-12,REG12,Atlantic Field Region 12,repeat_visit_rate,14.4,12.87,1.53,9.7,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-01-19,REG12,Atlantic Field Region 12,on_time_arrival_rate,85.64,84.22,1.42,9.7,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-03-16,REG12,Atlantic Field Region 12,first_visit_fix_rate,66.41,65.22,1.19,9.7,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-04-13,REG12,Atlantic Field Region 12,on_time_arrival_rate,85.45,84.02,1.43,9.7,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-04-20,REG01,Mountain Field Region 1,repeat_visit_rate,13.8,12.86,0.94,9.6,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-02-16,REG08,Atlantic Field Region 8,on_time_arrival_rate,86.81,84.63,2.18,9.6,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-03-09,REG08,Atlantic Field Region 8,first_visit_fix_rate,76.64,74.74,1.9,9.6,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-02-16,REG10,Central Field Region 10,technician_utilization,91.34,90.33,1.01,9.6,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-02-23,REG10,Central Field Region 10,technician_utilization,93.43,94.39,0.96,9.6,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-05-04,REG10,Central Field Region 10,on_time_arrival_rate,85.76,86.59,0.82,9.6,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-04-27,REG11,Southeast Field Region 11,repeat_visit_rate,12.92,11.38,1.54,9.6,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-04-27,REG12,Atlantic Field Region 12,on_time_arrival_rate,85.16,83.82,1.34,9.6,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-01-05,REG01,Mountain Field Region 1,repeat_visit_rate,13.37,12.58,0.79,9.5,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-02-02,REG01,Mountain Field Region 1,on_time_arrival_rate,87.25,88.03,0.78,9.5,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-01-05,REG03,Southeast Field Region 3,technician_utilization,89.19,90.36,1.18,9.5,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-02-23,REG08,Atlantic Field Region 8,first_visit_fix_rate,78.45,80.23,1.79,9.5,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-02-02,REG10,Central Field Region 10,repeat_visit_rate,15.4,14.55,0.86,9.5,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-02-02,REG10,Central Field Region 10,technician_utilization,88.94,89.86,0.92,9.5,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-04-13,REG10,Central Field Region 10,technician_utilization,88.37,89.27,0.9,9.5,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-03-23,REG11,Southeast Field Region 11,on_time_arrival_rate,86.78,85.48,1.31,9.5,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-02-09,REG12,Atlantic Field Region 12,repeat_visit_rate,14.14,15.52,1.38,9.5,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-02-16,REG12,Atlantic Field Region 12,technician_utilization,91.06,89.56,1.5,9.5,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-03-16,REG12,Atlantic Field Region 12,cost_per_work_order,139.24,138.02,1.22,9.5,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-03-30,REG01,Mountain Field Region 1,technician_utilization,86.9,87.69,0.79,9.4,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-03-02,REG03,Southeast Field Region 3,first_visit_fix_rate,74.1,73.32,0.78,9.4,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-04-06,REG03,Southeast Field Region 3,repeat_visit_rate,13.73,14.72,0.99,9.4,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-04-13,REG03,Southeast Field Region 3,on_time_arrival_rate,85.24,86.2,0.95,9.4,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-04-27,REG08,Atlantic Field Region 8,on_time_arrival_rate,86.83,88.87,2.04,9.4,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-03-02,REG09,Mountain Field Region 9,first_visit_fix_rate,73.91,72.82,1.08,9.4,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-04-27,REG09,Mountain Field Region 9,technician_utilization,90.74,89.27,1.47,9.4,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-05-04,REG09,Mountain Field Region 9,first_visit_fix_rate,75.4,76.45,1.05,9.4,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-02-09,REG10,Central Field Region 10,repeat_visit_rate,14.69,15.44,0.75,9.4,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-02-09,REG11,Southeast Field Region 11,on_time_arrival_rate,86.39,87.6,1.21,9.4,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-03-30,REG11,Southeast Field Region 11,first_visit_fix_rate,75.09,76.15,1.06,9.4,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-01-12,REG12,Atlantic Field Region 12,technician_utilization,91.87,90.51,1.36,9.4,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-02-16,REG12,Atlantic Field Region 12,on_time_arrival_rate,87.14,85.93,1.2,9.4,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-02-23,REG12,Atlantic Field Region 12,first_visit_fix_rate,66.79,65.76,1.03,9.4,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-02-02,REG03,Southeast Field Region 3,on_time_arrival_rate,84.36,83.54,0.82,9.3,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-02-02,REG03,Southeast Field Region 3,technician_utilization,91.19,90.16,1.02,9.3,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-03-09,REG03,Southeast Field Region 3,repeat_visit_rate,13.9,12.98,0.92,9.3,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-03-23,REG03,Southeast Field Region 3,on_time_arrival_rate,83.55,82.66,0.89,9.3,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-01-12,REG07,Southeast Field Region 7,on_time_arrival_rate,89.19,91.45,2.27,9.3,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-03-02,REG08,Atlantic Field Region 8,cost_per_work_order,129.68,131.65,1.98,9.3,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-01-12,REG09,Mountain Field Region 9,cost_per_work_order,126.01,124.8,1.21,9.3,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-02-09,REG09,Mountain Field Region 9,first_visit_fix_rate,73.63,74.62,0.99,9.3,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-04-06,REG09,Mountain Field Region 9,first_visit_fix_rate,76.14,75.13,1.02,9.3,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-03-23,REG11,Southeast Field Region 11,technician_utilization,89.06,90.42,1.36,9.3,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-01-19,REG12,Atlantic Field Region 12,technician_utilization,91.43,90.08,1.35,9.3,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-02-02,REG12,Atlantic Field Region 12,repeat_visit_rate,14.84,13.69,1.15,9.3,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-02-16,REG12,Atlantic Field Region 12,repeat_visit_rate,13.79,12.56,1.23,9.3,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-03-09,REG12,Atlantic Field Region 12,technician_utilization,87.94,89.29,1.35,9.3,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-03-02,REG03,Southeast Field Region 3,on_time_arrival_rate,83.81,83.03,0.79,9.2,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-04-06,REG03,Southeast Field Region 3,technician_utilization,92.23,91.29,0.94,9.2,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-04-13,REG03,Southeast Field Region 3,technician_utilization,88.36,87.47,0.89,9.2,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-04-27,REG03,Southeast Field Region 3,technician_utilization,90.43,91.33,0.9,9.2,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-04-27,REG08,Atlantic Field Region 8,repeat_visit_rate,13.85,15.92,2.07,9.2,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-01-05,REG09,Mountain Field Region 9,technician_utilization,94.91,93.62,1.29,9.2,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-03-23,REG09,Mountain Field Region 9,technician_utilization,92.81,94.1,1.28,9.2,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-04-06,REG09,Mountain Field Region 9,repeat_visit_rate,11.65,12.89,1.24,9.2,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-04-20,REG12,Atlantic Field Region 12,technician_utilization,86.16,84.95,1.21,9.2,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-02-16,REG08,Atlantic Field Region 8,repeat_visit_rate,12.63,10.72,1.91,9.1,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-01-12,REG09,Mountain Field Region 9,technician_utilization,87.83,89.02,1.19,9.1,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-01-26,REG09,Mountain Field Region 9,on_time_arrival_rate,89.61,90.65,1.04,9.1,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-02-23,REG09,Mountain Field Region 9,technician_utilization,90.7,91.95,1.25,9.1,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-03-16,REG09,Mountain Field Region 9,first_visit_fix_rate,75.77,76.64,0.87,9.1,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-04-06,REG09,Mountain Field Region 9,on_time_arrival_rate,88.2,89.2,1.0,9.1,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-01-26,REG11,Southeast Field Region 11,repeat_visit_rate,12.33,13.45,1.12,9.1,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-02-16,REG11,Southeast Field Region 11,repeat_visit_rate,14.15,13.05,1.1,9.1,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-04-20,REG11,Southeast Field Region 11,technician_utilization,90.7,91.89,1.19,9.1,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-04-27,REG12,Atlantic Field Region 12,technician_utilization,86.16,85.09,1.07,9.1,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-04-06,REG08,Atlantic Field Region 8,repeat_visit_rate,12.62,14.51,1.89,9.0,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-03-02,REG09,Mountain Field Region 9,repeat_visit_rate,10.8,11.82,1.01,9.0,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-03-30,REG09,Mountain Field Region 9,technician_utilization,94.2,93.12,1.08,9.0,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-04-20,REG09,Mountain Field Region 9,technician_utilization,92.4,93.52,1.12,9.0,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-01-05,REG11,Southeast Field Region 11,repeat_visit_rate,14.42,15.39,0.96,9.0,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-01-12,REG11,Southeast Field Region 11,first_visit_fix_rate,76.12,75.37,0.76,9.0,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-02-23,REG12,Atlantic Field Region 12,repeat_visit_rate,14.63,15.54,0.9,9.0,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-03-02,REG12,Atlantic Field Region 12,repeat_visit_rate,13.88,13.0,0.88,9.0,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-04-06,REG12,Atlantic Field Region 12,technician_utilization,91.36,92.39,1.03,9.0,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-01-05,REG07,Southeast Field Region 7,cost_per_work_order,123.04,125.01,1.96,8.9,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-01-26,REG07,Southeast Field Region 7,first_visit_fix_rate,67.46,65.81,1.65,8.9,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-02-16,REG08,Atlantic Field Region 8,cost_per_work_order,135.09,136.7,1.6,8.9,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-02-09,REG09,Mountain Field Region 9,technician_utilization,87.86,86.83,1.03,8.9,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-05-04,REG09,Mountain Field Region 9,on_time_arrival_rate,87.75,86.93,0.82,8.9,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-02-09,REG11,Southeast Field Region 11,repeat_visit_rate,13.29,14.18,0.89,8.9,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-03-02,REG11,Southeast Field Region 11,technician_utilization,91.73,92.73,1.01,8.9,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-03-09,REG11,Southeast Field Region 11,repeat_visit_rate,13.85,14.74,0.89,8.9,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-04-27,REG11,Southeast Field Region 11,technician_utilization,84.54,85.54,1.0,8.9,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-05-04,REG11,Southeast Field Region 11,technician_utilization,87.11,88.13,1.02,8.9,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-03-16,REG12,Atlantic Field Region 12,on_time_arrival_rate,85.04,85.81,0.77,8.9,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-04-13,REG12,Atlantic Field Region 12,technician_utilization,89.93,89.04,0.89,8.9,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-05-04,REG12,Atlantic Field Region 12,on_time_arrival_rate,85.72,84.93,0.79,8.9,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-03-09,REG07,Southeast Field Region 7,cost_per_work_order,126.11,127.93,1.82,8.8,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-01-12,REG09,Mountain Field Region 9,repeat_visit_rate,12.61,13.44,0.82,8.8,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-02-02,REG11,Southeast Field Region 11,technician_utilization,92.87,93.82,0.94,8.8,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-03-09,REG11,Southeast Field Region 11,technician_utilization,91.53,90.65,0.87,8.8,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-03-02,REG12,Atlantic Field Region 12,technician_utilization,90.14,89.3,0.84,8.8,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-01-26,REG08,Atlantic Field Region 8,on_time_arrival_rate,86.69,88.11,1.42,8.7,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-02-23,REG08,Atlantic Field Region 8,on_time_arrival_rate,87.29,85.89,1.41,8.7,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-03-02,REG08,Atlantic Field Region 8,technician_utilization,92.81,94.54,1.72,8.7,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-03-23,REG08,Atlantic Field Region 8,first_visit_fix_rate,78.41,77.16,1.25,8.7,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-03-23,REG08,Atlantic Field Region 8,cost_per_work_order,132.59,131.11,1.47,8.7,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-04-20,REG09,Mountain Field Region 9,repeat_visit_rate,9.94,9.19,0.75,8.7,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-03-02,REG11,Southeast Field Region 11,repeat_visit_rate,14.28,15.03,0.75,8.7,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-03-30,REG07,Southeast Field Region 7,cost_per_work_order,123.14,121.43,1.71,8.6,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-01-19,REG08,Atlantic Field Region 8,cost_per_work_order,133.99,132.61,1.38,8.6,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-02-02,REG08,Atlantic Field Region 8,on_time_arrival_rate,86.57,85.18,1.39,8.6,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-02-09,REG07,Southeast Field Region 7,on_time_arrival_rate,88.34,89.96,1.62,8.5,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-02-02,REG08,Atlantic Field Region 8,first_visit_fix_rate,79.68,78.6,1.08,8.5,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-03-16,REG07,Southeast Field Region 7,repeat_visit_rate,12.53,10.84,1.69,8.4,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-04-20,REG07,Southeast Field Region 7,on_time_arrival_rate,88.54,90.06,1.52,8.4,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-02-02,REG07,Southeast Field Region 7,cost_per_work_order,120.53,121.94,1.41,8.3,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-02-16,REG07,Southeast Field Region 7,repeat_visit_rate,11.61,10.06,1.55,8.3,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-04-20,REG07,Southeast Field Region 7,repeat_visit_rate,11.8,13.38,1.58,8.3,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-02-09,REG08,Atlantic Field Region 8,technician_utilization,94.46,95.78,1.32,8.3,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-03-09,REG08,Atlantic Field Region 8,technician_utilization,93.03,94.32,1.29,8.3,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-03-23,REG08,Atlantic Field Region 8,technician_utilization,94.13,92.77,1.36,8.3,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-01-26,REG07,Southeast Field Region 7,on_time_arrival_rate,87.85,86.5,1.35,8.2,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-02-23,REG07,Southeast Field Region 7,cost_per_work_order,116.46,115.12,1.34,8.2,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-04-13,REG07,Southeast Field Region 7,repeat_visit_rate,11.51,10.02,1.49,8.2,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-01-26,REG08,Atlantic Field Region 8,technician_utilization,93.91,92.66,1.25,8.2,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-03-16,REG08,Atlantic Field Region 8,on_time_arrival_rate,88.01,86.95,1.06,8.2,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-04-13,REG08,Atlantic Field Region 8,on_time_arrival_rate,87.8,88.85,1.06,8.2,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-03-09,REG07,Southeast Field Region 7,on_time_arrival_rate,87.66,86.43,1.23,8.1,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-01-19,REG07,Southeast Field Region 7,first_visit_fix_rate,66.91,65.91,1.0,8.0,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-04-13,REG07,Southeast Field Region 7,on_time_arrival_rate,90.9,89.74,1.16,8.0,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-01-05,REG08,Atlantic Field Region 8,technician_utilization,91.11,90.07,1.05,8.0,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-01-12,REG08,Atlantic Field Region 8,on_time_arrival_rate,86.65,87.51,0.87,8.0,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-01-19,REG08,Atlantic Field Region 8,on_time_arrival_rate,87.36,86.53,0.83,8.0,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-04-13,REG08,Atlantic Field Region 8,repeat_visit_rate,13.22,14.18,0.96,8.0,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-02-09,REG07,Southeast Field Region 7,technician_utilization,91.16,89.82,1.34,7.9,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-02-02,REG08,Atlantic Field Region 8,repeat_visit_rate,13.58,14.45,0.88,7.9,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-02-23,REG08,Atlantic Field Region 8,repeat_visit_rate,11.7,10.89,0.81,7.9,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-03-02,REG08,Atlantic Field Region 8,on_time_arrival_rate,85.75,84.95,0.79,7.9,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-01-05,REG07,Southeast Field Region 7,on_time_arrival_rate,88.25,87.26,0.99,7.8,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-02-02,REG07,Southeast Field Region 7,first_visit_fix_rate,68.15,69.0,0.86,7.8,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-02-02,REG07,Southeast Field Region 7,technician_utilization,88.61,89.79,1.18,7.8,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-05-04,REG07,Southeast Field Region 7,first_visit_fix_rate,66.85,67.73,0.88,7.8,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-02-09,REG08,Atlantic Field Region 8,repeat_visit_rate,13.13,13.91,0.78,7.8,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-02-23,REG08,Atlantic Field Region 8,technician_utilization,90.1,89.29,0.81,7.8,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-03-23,REG08,Atlantic Field Region 8,repeat_visit_rate,11.99,11.19,0.8,7.8,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-02-23,REG07,Southeast Field Region 7,on_time_arrival_rate,88.79,87.87,0.92,7.7,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-01-12,REG07,Southeast Field Region 7,technician_utilization,91.13,92.12,0.99,7.6,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-02-16,REG07,Southeast Field Region 7,technician_utilization,91.3,92.3,1.0,7.6,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-02-23,REG07,Southeast Field Region 7,technician_utilization,88.76,89.76,1.0,7.6,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-01-12,REG07,Southeast Field Region 7,repeat_visit_rate,11.38,12.19,0.81,7.5,timezone boundary,Check service date conversion between local appointment time and UTC event time
+2026-03-09,REG07,Southeast Field Region 7,technician_utilization,91.59,92.46,0.87,7.5,technician reassignment,Rebuild technician ownership bridge for reassigned work orders
+2026-04-27,REG07,Southeast Field Region 7,repeat_visit_rate,12.11,11.3,0.81,7.5,missing cancellation filter,Validate cancellation flag logic against appointment status history
+2026-03-02,REG07,Southeast Field Region 7,technician_utilization,92.49,91.67,0.82,7.4,late arriving work order status,Recompute weekly gold table after late status watermark and compare closed orders
+2026-04-13,REG07,Southeast Field Region 7,technician_utilization,89.29,88.5,0.79,7.4,duplicate appointment event,Deduplicate appointment events before metric aggregation
+2026-01-26,REG07,Southeast Field Region 7,technician_utilization,91.59,90.83,0.75,7.3,timezone boundary,Check service date conversion between local appointment time and UTC event time

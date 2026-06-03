@@ -1,0 +1,5 @@
+check_name,checks_run,failures,failure_rate,highest_severity,primary_owner
+required field null rate,12,12,100.0,medium,Analytics
+late status update rate,12,8,66.7,high,Field operations
+lakehouse freshness,12,7,58.3,high,Data platform
+duplicate appointment event rate,12,1,8.3,medium,Data platform

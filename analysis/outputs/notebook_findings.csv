@@ -1,0 +1,5 @@
+step,notebook_cell,finding,evidence
+01,Bronze to silver volume check,"Central Field Region 6 has the highest operating priority because completion, repeat visit, and source mismatch risk overlap.","55.8 priority score, 45 metric mismatches, 3 failed quality checks"
+02,Gold KPI reconciliation,The largest reporting gap is completed_orders for Central Field Region 2.,"8.99 point or unit delta, driver tagged as technician reassignment"
+03,Field manager action scoring,Central Field Region 2 is the next best manager review candidate because its readiness score remains actionable.,"76.6 readiness, 80.0 customer score"
+04,Data quality monitor,The most common failing control is required field null rate.,100.0% failure rate across regions

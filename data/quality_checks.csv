@@ -1,0 +1,49 @@
+check_id,run_date,region_id,check_name,severity,observed_value,threshold_value,status,owner,recommended_fix
+DQ001,2026-05-10,REG01,lakehouse freshness,low,5,6,pass,Data platform,Review upstream appointment event landing job and retry failed partition
+DQ002,2026-05-10,REG01,required field null rate,medium,1.49,1.0,fail,Analytics,Patch source mapping and add notebook assertion for required columns
+DQ003,2026-05-10,REG01,duplicate appointment event rate,low,0.59,0.8,pass,Data platform,"Deduplicate by appointment id, status timestamp, and technician id"
+DQ004,2026-05-10,REG01,late status update rate,medium,4.73,4.5,fail,Field operations,Coach districts with delayed completion updates and refresh cutover rule
+DQ005,2026-05-10,REG02,lakehouse freshness,medium,7,6,fail,Data platform,Review upstream appointment event landing job and retry failed partition
+DQ006,2026-05-10,REG02,required field null rate,medium,1.92,1.0,fail,Analytics,Patch source mapping and add notebook assertion for required columns
+DQ007,2026-05-10,REG02,duplicate appointment event rate,low,0.56,0.8,pass,Data platform,"Deduplicate by appointment id, status timestamp, and technician id"
+DQ008,2026-05-10,REG02,late status update rate,high,9.33,4.5,fail,Field operations,Coach districts with delayed completion updates and refresh cutover rule
+DQ009,2026-05-10,REG03,lakehouse freshness,medium,9,6,fail,Data platform,Review upstream appointment event landing job and retry failed partition
+DQ010,2026-05-10,REG03,required field null rate,medium,1.88,1.0,fail,Analytics,Patch source mapping and add notebook assertion for required columns
+DQ011,2026-05-10,REG03,duplicate appointment event rate,low,0.62,0.8,pass,Data platform,"Deduplicate by appointment id, status timestamp, and technician id"
+DQ012,2026-05-10,REG03,late status update rate,medium,5.74,4.5,fail,Field operations,Coach districts with delayed completion updates and refresh cutover rule
+DQ013,2026-05-10,REG04,lakehouse freshness,low,5,6,pass,Data platform,Review upstream appointment event landing job and retry failed partition
+DQ014,2026-05-10,REG04,required field null rate,medium,1.07,1.0,fail,Analytics,Patch source mapping and add notebook assertion for required columns
+DQ015,2026-05-10,REG04,duplicate appointment event rate,low,0.78,0.8,pass,Data platform,"Deduplicate by appointment id, status timestamp, and technician id"
+DQ016,2026-05-10,REG04,late status update rate,low,3.95,4.5,pass,Field operations,Coach districts with delayed completion updates and refresh cutover rule
+DQ017,2026-05-10,REG05,lakehouse freshness,low,5,6,pass,Data platform,Review upstream appointment event landing job and retry failed partition
+DQ018,2026-05-10,REG05,required field null rate,medium,1.46,1.0,fail,Analytics,Patch source mapping and add notebook assertion for required columns
+DQ019,2026-05-10,REG05,duplicate appointment event rate,low,0.45,0.8,pass,Data platform,"Deduplicate by appointment id, status timestamp, and technician id"
+DQ020,2026-05-10,REG05,late status update rate,medium,5.6,4.5,fail,Field operations,Coach districts with delayed completion updates and refresh cutover rule
+DQ021,2026-05-10,REG06,lakehouse freshness,low,4,6,pass,Data platform,Review upstream appointment event landing job and retry failed partition
+DQ022,2026-05-10,REG06,required field null rate,medium,2.07,1.0,fail,Analytics,Patch source mapping and add notebook assertion for required columns
+DQ023,2026-05-10,REG06,duplicate appointment event rate,medium,0.81,0.8,fail,Data platform,"Deduplicate by appointment id, status timestamp, and technician id"
+DQ024,2026-05-10,REG06,late status update rate,medium,4.7,4.5,fail,Field operations,Coach districts with delayed completion updates and refresh cutover rule
+DQ025,2026-05-10,REG07,lakehouse freshness,medium,7,6,fail,Data platform,Review upstream appointment event landing job and retry failed partition
+DQ026,2026-05-10,REG07,required field null rate,medium,2.21,1.0,fail,Analytics,Patch source mapping and add notebook assertion for required columns
+DQ027,2026-05-10,REG07,duplicate appointment event rate,low,0.6,0.8,pass,Data platform,"Deduplicate by appointment id, status timestamp, and technician id"
+DQ028,2026-05-10,REG07,late status update rate,medium,5.56,4.5,fail,Field operations,Coach districts with delayed completion updates and refresh cutover rule
+DQ029,2026-05-10,REG08,lakehouse freshness,high,13,6,fail,Data platform,Review upstream appointment event landing job and retry failed partition
+DQ030,2026-05-10,REG08,required field null rate,medium,1.58,1.0,fail,Analytics,Patch source mapping and add notebook assertion for required columns
+DQ031,2026-05-10,REG08,duplicate appointment event rate,low,0.54,0.8,pass,Data platform,"Deduplicate by appointment id, status timestamp, and technician id"
+DQ032,2026-05-10,REG08,late status update rate,medium,5.22,4.5,fail,Field operations,Coach districts with delayed completion updates and refresh cutover rule
+DQ033,2026-05-10,REG09,lakehouse freshness,medium,9,6,fail,Data platform,Review upstream appointment event landing job and retry failed partition
+DQ034,2026-05-10,REG09,required field null rate,medium,1.43,1.0,fail,Analytics,Patch source mapping and add notebook assertion for required columns
+DQ035,2026-05-10,REG09,duplicate appointment event rate,low,0.42,0.8,pass,Data platform,"Deduplicate by appointment id, status timestamp, and technician id"
+DQ036,2026-05-10,REG09,late status update rate,low,4.29,4.5,pass,Field operations,Coach districts with delayed completion updates and refresh cutover rule
+DQ037,2026-05-10,REG10,lakehouse freshness,low,3,6,pass,Data platform,Review upstream appointment event landing job and retry failed partition
+DQ038,2026-05-10,REG10,required field null rate,medium,1.65,1.0,fail,Analytics,Patch source mapping and add notebook assertion for required columns
+DQ039,2026-05-10,REG10,duplicate appointment event rate,low,0.68,0.8,pass,Data platform,"Deduplicate by appointment id, status timestamp, and technician id"
+DQ040,2026-05-10,REG10,late status update rate,low,4.48,4.5,pass,Field operations,Coach districts with delayed completion updates and refresh cutover rule
+DQ041,2026-05-10,REG11,lakehouse freshness,medium,9,6,fail,Data platform,Review upstream appointment event landing job and retry failed partition
+DQ042,2026-05-10,REG11,required field null rate,medium,1.53,1.0,fail,Analytics,Patch source mapping and add notebook assertion for required columns
+DQ043,2026-05-10,REG11,duplicate appointment event rate,low,0.74,0.8,pass,Data platform,"Deduplicate by appointment id, status timestamp, and technician id"
+DQ044,2026-05-10,REG11,late status update rate,medium,4.52,4.5,fail,Field operations,Coach districts with delayed completion updates and refresh cutover rule
+DQ045,2026-05-10,REG12,lakehouse freshness,medium,7,6,fail,Data platform,Review upstream appointment event landing job and retry failed partition
+DQ046,2026-05-10,REG12,required field null rate,medium,1.64,1.0,fail,Analytics,Patch source mapping and add notebook assertion for required columns
+DQ047,2026-05-10,REG12,duplicate appointment event rate,low,0.32,0.8,pass,Data platform,"Deduplicate by appointment id, status timestamp, and technician id"
+DQ048,2026-05-10,REG12,late status update rate,low,3.81,4.5,pass,Field operations,Coach districts with delayed completion updates and refresh cutover rule

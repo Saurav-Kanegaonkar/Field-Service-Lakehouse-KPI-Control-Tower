@@ -1,37 +1,13 @@
-entity_id,entity_name,segment,owner
-FIE001,Field region 1,Strategic,Operations
-FIE002,Field region 2,Strategic,Customer
-FIE003,Field region 3,Watch,Customer
-FIE004,Field region 4,Growth,Operations
-FIE005,Field region 5,Strategic,Operations
-FIE006,Field region 6,Strategic,Operations
-FIE007,Field region 7,Strategic,Product
-FIE008,Field region 8,Core,Product
-FIE009,Field region 9,Watch,Revenue
-FIE010,Field region 10,Watch,Customer
-FIE011,Field region 11,Strategic,Product
-FIE012,Field region 12,Strategic,Operations
-FIE013,Field region 13,Growth,Analytics
-FIE014,Field region 14,Growth,Customer
-FIE015,Field region 15,Watch,Operations
-FIE016,Field region 16,Core,Analytics
-FIE017,Field region 17,Core,Customer
-FIE018,Field region 18,Core,Revenue
-FIE019,Field region 19,Core,Customer
-FIE020,Field region 20,Strategic,Operations
-FIE021,Field region 21,Core,Revenue
-FIE022,Field region 22,Growth,Product
-FIE023,Field region 23,Watch,Customer
-FIE024,Field region 24,Core,Product
-FIE025,Field region 25,Core,Customer
-FIE026,Field region 26,Strategic,Customer
-FIE027,Field region 27,Core,Product
-FIE028,Field region 28,Watch,Product
-FIE029,Field region 29,Strategic,Customer
-FIE030,Field region 30,Watch,Analytics
-FIE031,Field region 31,Watch,Customer
-FIE032,Field region 32,Growth,Customer
-FIE033,Field region 33,Strategic,Product
-FIE034,Field region 34,Growth,Analytics
-FIE035,Field region 35,Growth,Revenue
-FIE036,Field region 36,Core,Customer
+region_id,region_name,division,market_type,field_manager,technician_count,district_count,avg_drive_miles,baseline_completion_rate,baseline_first_visit_fix,baseline_customer_score
+REG01,Mountain Field Region 1,Mountain,Suburban,Avery Patel,161,7,41.3,92.8,69.3,83.3
+REG02,Central Field Region 2,Central,Mixed footprint,Jordan Kim,83,7,40.6,87.5,76.2,79.8
+REG03,Southeast Field Region 3,Southeast,Suburban,Maya Brooks,99,5,44.9,89.6,77.9,84.5
+REG04,Atlantic Field Region 4,Atlantic,Mixed footprint,Luis Romero,99,11,56.7,86.0,73.4,88.5
+REG05,Mountain Field Region 5,Mountain,Suburban,Priya Nair,123,5,51.7,91.2,78.4,80.7
+REG06,Central Field Region 6,Central,Mixed footprint,Elena Morris,106,7,49.6,87.2,70.3,78.9
+REG07,Southeast Field Region 7,Southeast,Suburban,Noah Grant,98,9,23.8,93.6,69.3,88.8
+REG08,Atlantic Field Region 8,Atlantic,Mixed footprint,Camila Torres,101,11,34.7,91.0,81.5,85.1
+REG09,Mountain Field Region 9,Mountain,Suburban,Owen Shah,162,8,30.6,93.6,77.8,78.9
+REG10,Central Field Region 10,Central,Mixed footprint,Lena Murphy,87,5,42.1,93.3,70.6,83.4
+REG11,Southeast Field Region 11,Southeast,Suburban,Caleb Nguyen,149,6,38.9,87.4,77.2,88.2
+REG12,Atlantic Field Region 12,Atlantic,Mixed footprint,Rina Jackson,91,11,44.7,92.7,69.2,83.0

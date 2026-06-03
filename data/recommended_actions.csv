@@ -1,221 +1,45 @@
-action_id,entity_id,action_type,effort_hours,expected_lift_pct,status
-ACT0001,FIE010,prioritize,37,19.5,In Review
-ACT0002,FIE011,monitor,24,5.6,Ready
-ACT0003,FIE028,prioritize,36,9.9,Ready
-ACT0004,FIE029,automate,40,19.0,In Review
-ACT0005,FIE002,document,39,11.2,Proposed
-ACT0006,FIE003,automate,41,9.6,Complete
-ACT0007,FIE008,automate,4,21.0,In Review
-ACT0008,FIE009,document,26,7.2,In Review
-ACT0009,FIE012,document,27,9.5,Ready
-ACT0010,FIE017,validate,17,14.6,In Review
-ACT0011,FIE002,validate,27,14.8,In Review
-ACT0012,FIE029,document,8,19.7,Proposed
-ACT0013,FIE029,document,9,22.5,Proposed
-ACT0014,FIE019,automate,15,3.9,Complete
-ACT0015,FIE029,prioritize,20,5.8,In Review
-ACT0016,FIE032,document,30,9.3,Proposed
-ACT0017,FIE031,document,42,11.5,Ready
-ACT0018,FIE001,automate,27,2.1,In Review
-ACT0019,FIE017,automate,43,8.6,Complete
-ACT0020,FIE013,prioritize,8,10.5,Complete
-ACT0021,FIE017,monitor,22,9.9,Ready
-ACT0022,FIE019,automate,5,11.6,Ready
-ACT0023,FIE028,monitor,22,20.2,In Review
-ACT0024,FIE022,escalate,17,8.0,Proposed
-ACT0025,FIE005,prioritize,43,19.5,Ready
-ACT0026,FIE031,monitor,13,5.4,In Review
-ACT0027,FIE007,escalate,7,7.8,Ready
-ACT0028,FIE024,escalate,38,5.8,Ready
-ACT0029,FIE011,automate,28,23.7,Complete
-ACT0030,FIE014,validate,39,9.6,Complete
-ACT0031,FIE025,validate,42,13.5,Complete
-ACT0032,FIE017,escalate,12,4.1,Ready
-ACT0033,FIE019,escalate,39,17.8,Complete
-ACT0034,FIE021,document,37,5.6,Ready
-ACT0035,FIE005,monitor,42,5.3,Ready
-ACT0036,FIE010,prioritize,23,13.7,Proposed
-ACT0037,FIE028,document,33,11.2,Proposed
-ACT0038,FIE001,monitor,7,5.4,In Review
-ACT0039,FIE003,monitor,11,11.6,Complete
-ACT0040,FIE007,document,36,21.5,Proposed
-ACT0041,FIE021,monitor,17,23.0,Proposed
-ACT0042,FIE007,document,21,19.6,Complete
-ACT0043,FIE035,validate,12,6.4,Proposed
-ACT0044,FIE022,prioritize,37,5.5,Ready
-ACT0045,FIE019,validate,38,13.5,In Review
-ACT0046,FIE036,prioritize,34,16.6,Ready
-ACT0047,FIE025,document,21,4.7,Complete
-ACT0048,FIE006,automate,33,12.9,In Review
-ACT0049,FIE016,escalate,41,6.3,Proposed
-ACT0050,FIE008,escalate,37,23.3,Ready
-ACT0051,FIE036,monitor,35,21.2,Proposed
-ACT0052,FIE010,automate,23,11.7,Complete
-ACT0053,FIE031,monitor,23,22.5,In Review
-ACT0054,FIE026,automate,34,14.2,Ready
-ACT0055,FIE017,escalate,22,12.6,In Review
-ACT0056,FIE008,validate,38,4.5,Proposed
-ACT0057,FIE022,monitor,44,5.0,Ready
-ACT0058,FIE014,automate,34,13.7,Proposed
-ACT0059,FIE026,escalate,5,15.6,Ready
-ACT0060,FIE029,monitor,18,16.7,Proposed
-ACT0061,FIE010,escalate,30,4.8,In Review
-ACT0062,FIE022,escalate,44,4.5,Proposed
-ACT0063,FIE011,escalate,30,19.5,Proposed
-ACT0064,FIE034,document,16,15.6,Proposed
-ACT0065,FIE001,prioritize,34,3.1,In Review
-ACT0066,FIE026,prioritize,44,11.3,Ready
-ACT0067,FIE013,monitor,10,16.3,Ready
-ACT0068,FIE034,escalate,7,3.2,Proposed
-ACT0069,FIE015,document,5,3.5,In Review
-ACT0070,FIE017,prioritize,40,7.6,Proposed
-ACT0071,FIE029,escalate,16,19.4,Complete
-ACT0072,FIE020,prioritize,43,18.2,In Review
-ACT0073,FIE016,validate,38,23.3,Proposed
-ACT0074,FIE024,monitor,42,4.0,Ready
-ACT0075,FIE004,escalate,4,20.8,Ready
-ACT0076,FIE018,monitor,29,14.6,In Review
-ACT0077,FIE018,validate,43,10.6,Proposed
-ACT0078,FIE024,validate,23,21.1,Ready
-ACT0079,FIE017,document,14,20.1,In Review
-ACT0080,FIE010,monitor,25,3.2,In Review
-ACT0081,FIE002,prioritize,2,11.0,Complete
-ACT0082,FIE002,monitor,34,7.6,Complete
-ACT0083,FIE005,validate,37,17.2,Ready
-ACT0084,FIE033,escalate,31,14.9,Complete
-ACT0085,FIE027,escalate,34,5.6,In Review
-ACT0086,FIE025,document,5,12.6,Proposed
-ACT0087,FIE005,monitor,35,3.1,Complete
-ACT0088,FIE010,validate,5,19.7,In Review
-ACT0089,FIE022,monitor,9,16.9,In Review
-ACT0090,FIE016,automate,4,23.3,In Review
-ACT0091,FIE024,prioritize,41,6.2,Complete
-ACT0092,FIE006,automate,24,8.8,Complete
-ACT0093,FIE015,document,24,6.7,Ready
-ACT0094,FIE020,validate,19,7.3,In Review
-ACT0095,FIE035,validate,39,18.3,Complete
-ACT0096,FIE010,document,13,12.3,Proposed
-ACT0097,FIE023,validate,37,17.2,Proposed
-ACT0098,FIE008,monitor,4,23.7,Ready
-ACT0099,FIE016,validate,7,2.7,Proposed
-ACT0100,FIE013,prioritize,26,3.8,Complete
-ACT0101,FIE035,escalate,17,2.4,Ready
-ACT0102,FIE010,document,27,5.6,Complete
-ACT0103,FIE008,document,39,15.2,Ready
-ACT0104,FIE025,validate,8,6.8,Complete
-ACT0105,FIE003,validate,40,11.3,Ready
-ACT0106,FIE002,monitor,28,12.6,Complete
-ACT0107,FIE016,escalate,40,15.9,Proposed
-ACT0108,FIE031,validate,16,11.5,Ready
-ACT0109,FIE022,automate,17,4.8,In Review
-ACT0110,FIE018,document,17,18.9,In Review
-ACT0111,FIE003,escalate,11,5.6,Ready
-ACT0112,FIE007,document,20,5.2,Complete
-ACT0113,FIE013,document,22,21.2,Ready
-ACT0114,FIE006,monitor,21,2.1,Ready
-ACT0115,FIE003,escalate,21,10.0,Complete
-ACT0116,FIE003,escalate,5,23.7,Ready
-ACT0117,FIE003,document,33,6.6,In Review
-ACT0118,FIE007,document,43,23.2,Proposed
-ACT0119,FIE036,validate,32,8.0,Proposed
-ACT0120,FIE036,prioritize,12,8.6,Ready
-ACT0121,FIE013,validate,19,15.1,Proposed
-ACT0122,FIE025,monitor,7,20.4,In Review
-ACT0123,FIE016,automate,26,18.6,In Review
-ACT0124,FIE021,monitor,36,5.5,Ready
-ACT0125,FIE033,document,19,15.1,Complete
-ACT0126,FIE011,document,36,7.9,Ready
-ACT0127,FIE005,escalate,3,14.8,Proposed
-ACT0128,FIE021,automate,37,14.5,Complete
-ACT0129,FIE011,document,35,20.2,In Review
-ACT0130,FIE015,monitor,26,15.2,Proposed
-ACT0131,FIE007,document,11,20.5,Complete
-ACT0132,FIE001,automate,12,17.3,Proposed
-ACT0133,FIE032,document,25,11.3,Complete
-ACT0134,FIE019,validate,13,9.9,In Review
-ACT0135,FIE011,automate,23,5.8,Proposed
-ACT0136,FIE009,validate,11,9.4,Proposed
-ACT0137,FIE015,automate,3,4.9,In Review
-ACT0138,FIE002,document,10,6.4,Proposed
-ACT0139,FIE012,monitor,7,12.9,In Review
-ACT0140,FIE019,validate,34,23.1,Ready
-ACT0141,FIE026,automate,2,9.4,In Review
-ACT0142,FIE006,prioritize,19,21.7,In Review
-ACT0143,FIE001,monitor,14,6.0,Complete
-ACT0144,FIE026,validate,4,23.5,Proposed
-ACT0145,FIE007,escalate,40,16.0,Complete
-ACT0146,FIE003,automate,20,3.4,In Review
-ACT0147,FIE028,validate,39,21.7,Proposed
-ACT0148,FIE020,escalate,28,4.8,In Review
-ACT0149,FIE009,prioritize,23,18.3,Ready
-ACT0150,FIE003,monitor,11,17.3,Proposed
-ACT0151,FIE009,escalate,33,13.6,Ready
-ACT0152,FIE032,escalate,23,5.3,In Review
-ACT0153,FIE032,document,23,20.2,Ready
-ACT0154,FIE010,monitor,44,18.1,Proposed
-ACT0155,FIE030,prioritize,14,23.5,Ready
-ACT0156,FIE016,escalate,42,4.2,Ready
-ACT0157,FIE030,document,24,15.9,Ready
-ACT0158,FIE020,monitor,10,6.5,Complete
-ACT0159,FIE031,automate,10,16.7,Proposed
-ACT0160,FIE028,document,8,22.3,Complete
-ACT0161,FIE012,prioritize,30,21.8,Complete
-ACT0162,FIE020,automate,29,17.7,Complete
-ACT0163,FIE010,automate,2,2.7,Complete
-ACT0164,FIE021,prioritize,8,8.4,In Review
-ACT0165,FIE001,prioritize,11,23.4,In Review
-ACT0166,FIE014,validate,33,7.7,In Review
-ACT0167,FIE001,validate,6,12.1,In Review
-ACT0168,FIE002,escalate,2,16.8,Proposed
-ACT0169,FIE001,prioritize,30,16.5,Complete
-ACT0170,FIE025,monitor,22,17.0,Complete
-ACT0171,FIE016,prioritize,23,8.7,In Review
-ACT0172,FIE032,validate,41,6.5,In Review
-ACT0173,FIE024,prioritize,41,16.1,In Review
-ACT0174,FIE034,prioritize,44,6.8,In Review
-ACT0175,FIE015,validate,12,3.1,Complete
-ACT0176,FIE012,monitor,25,20.6,Complete
-ACT0177,FIE025,escalate,13,2.8,Complete
-ACT0178,FIE010,document,36,23.6,In Review
-ACT0179,FIE003,escalate,16,16.9,Complete
-ACT0180,FIE005,automate,40,20.2,Ready
-ACT0181,FIE006,automate,28,22.9,Proposed
-ACT0182,FIE013,prioritize,11,9.3,Proposed
-ACT0183,FIE008,prioritize,27,20.3,Ready
-ACT0184,FIE028,escalate,38,12.6,Proposed
-ACT0185,FIE031,validate,43,3.8,Complete
-ACT0186,FIE023,validate,31,11.6,Ready
-ACT0187,FIE032,monitor,38,10.9,Complete
-ACT0188,FIE023,monitor,35,20.3,Proposed
-ACT0189,FIE008,prioritize,12,17.5,Ready
-ACT0190,FIE024,prioritize,34,12.9,Complete
-ACT0191,FIE029,monitor,13,12.7,Ready
-ACT0192,FIE018,document,35,15.5,In Review
-ACT0193,FIE003,automate,35,15.5,In Review
-ACT0194,FIE026,monitor,37,12.4,Ready
-ACT0195,FIE005,escalate,40,22.8,In Review
-ACT0196,FIE020,validate,42,15.2,Complete
-ACT0197,FIE027,validate,25,20.8,In Review
-ACT0198,FIE006,document,30,7.6,Ready
-ACT0199,FIE019,monitor,31,3.0,Ready
-ACT0200,FIE013,escalate,12,10.6,Proposed
-ACT0201,FIE007,automate,4,9.7,Proposed
-ACT0202,FIE012,escalate,11,14.6,Complete
-ACT0203,FIE028,validate,13,19.8,Proposed
-ACT0204,FIE031,escalate,44,2.8,In Review
-ACT0205,FIE008,automate,11,16.8,Proposed
-ACT0206,FIE026,prioritize,34,5.8,Complete
-ACT0207,FIE034,automate,23,3.6,Ready
-ACT0208,FIE013,document,19,4.5,Ready
-ACT0209,FIE004,prioritize,36,16.4,Complete
-ACT0210,FIE002,document,10,2.3,Proposed
-ACT0211,FIE021,prioritize,44,12.9,In Review
-ACT0212,FIE026,prioritize,10,7.1,Proposed
-ACT0213,FIE005,automate,16,13.7,Proposed
-ACT0214,FIE005,escalate,12,12.7,Complete
-ACT0215,FIE009,escalate,12,20.8,Ready
-ACT0216,FIE024,validate,11,23.9,Proposed
-ACT0217,FIE025,escalate,13,20.2,Proposed
-ACT0218,FIE023,automate,13,22.7,Complete
-ACT0219,FIE002,escalate,21,12.7,Ready
-ACT0220,FIE020,prioritize,12,22.0,Complete
+action_id,region_id,action_title,owner,detail,estimated_effort_hours,expected_weekly_hours_saved,expected_cost_avoidance,status
+ACT001,REG06,Reconcile first visit fix definition,Analytics,"Align numerator and denominator across lakehouse, BI, and operations extracts",8,16.0,291698.0,queued for weekly review
+ACT002,REG06,Refresh late status coaching packet,Field operations,Target districts with delayed completion updates and high repeat visits,11,20.7,251292.0,ready for manager review
+ACT003,REG06,Add appointment dedupe assertion,Data platform,Block duplicate appointment events before gold KPI tables refresh,6,11.2,236434.0,ready for manager review
+ACT004,REG06,Route rural overflow by drive-time band,Field operations,Move capacity from low-risk districts into longer drive-time appointment clusters,16,27.9,366556.0,queued for weekly review
+ACT005,REG06,Publish manager KPI digest,Analytics,"Send weekly rank, root cause, and next action summary to field leaders",6,10.8,425192.0,ready for manager review
+ACT006,REG02,Reconcile first visit fix definition,Analytics,"Align numerator and denominator across lakehouse, BI, and operations extracts",13,16.8,226458.0,needs data owner
+ACT007,REG02,Refresh late status coaching packet,Field operations,Target districts with delayed completion updates and high repeat visits,12,20.3,197973.0,needs data owner
+ACT008,REG02,Add appointment dedupe assertion,Data platform,Block duplicate appointment events before gold KPI tables refresh,9,12.7,304783.0,queued for weekly review
+ACT009,REG02,Route rural overflow by drive-time band,Field operations,Move capacity from low-risk districts into longer drive-time appointment clusters,17,18.8,278923.0,needs data owner
+ACT010,REG02,Publish manager KPI digest,Analytics,"Send weekly rank, root cause, and next action summary to field leaders",7,8.6,279169.0,ready for manager review
+ACT011,REG05,Reconcile first visit fix definition,Analytics,"Align numerator and denominator across lakehouse, BI, and operations extracts",10,11.4,235342.0,queued for weekly review
+ACT012,REG05,Refresh late status coaching packet,Field operations,Target districts with delayed completion updates and high repeat visits,16,24.4,270491.0,needs data owner
+ACT013,REG05,Add appointment dedupe assertion,Data platform,Block duplicate appointment events before gold KPI tables refresh,9,11.4,265627.0,queued for weekly review
+ACT014,REG05,Route rural overflow by drive-time band,Field operations,Move capacity from low-risk districts into longer drive-time appointment clusters,20,20.8,338713.0,queued for weekly review
+ACT015,REG05,Publish manager KPI digest,Analytics,"Send weekly rank, root cause, and next action summary to field leaders",8,9.6,452346.0,ready for manager review
+ACT016,REG04,Reconcile first visit fix definition,Analytics,"Align numerator and denominator across lakehouse, BI, and operations extracts",12,15.7,399711.0,ready for manager review
+ACT017,REG04,Refresh late status coaching packet,Field operations,Target districts with delayed completion updates and high repeat visits,17,23.6,220183.0,ready for manager review
+ACT018,REG04,Add appointment dedupe assertion,Data platform,Block duplicate appointment events before gold KPI tables refresh,4,9.4,190717.0,queued for weekly review
+ACT019,REG04,Route rural overflow by drive-time band,Field operations,Move capacity from low-risk districts into longer drive-time appointment clusters,16,23.5,194475.0,ready for manager review
+ACT020,REG04,Publish manager KPI digest,Analytics,"Send weekly rank, root cause, and next action summary to field leaders",7,10.7,359744.0,needs data owner
+ACT021,REG10,Reconcile first visit fix definition,Analytics,"Align numerator and denominator across lakehouse, BI, and operations extracts",11,15.3,258912.0,needs data owner
+ACT022,REG10,Refresh late status coaching packet,Field operations,Target districts with delayed completion updates and high repeat visits,17,20.4,308099.0,ready for manager review
+ACT023,REG10,Add appointment dedupe assertion,Data platform,Block duplicate appointment events before gold KPI tables refresh,4,10.8,154807.0,ready for manager review
+ACT024,REG01,Reconcile first visit fix definition,Analytics,"Align numerator and denominator across lakehouse, BI, and operations extracts",7,14.5,407486.0,needs data owner
+ACT025,REG01,Refresh late status coaching packet,Field operations,Target districts with delayed completion updates and high repeat visits,16,18.0,621462.0,queued for weekly review
+ACT026,REG01,Add appointment dedupe assertion,Data platform,Block duplicate appointment events before gold KPI tables refresh,10,12.0,301378.0,ready for manager review
+ACT027,REG03,Reconcile first visit fix definition,Analytics,"Align numerator and denominator across lakehouse, BI, and operations extracts",8,15.1,274871.0,ready for manager review
+ACT028,REG03,Refresh late status coaching packet,Field operations,Target districts with delayed completion updates and high repeat visits,11,16.9,377978.0,needs data owner
+ACT029,REG03,Add appointment dedupe assertion,Data platform,Block duplicate appointment events before gold KPI tables refresh,7,9.0,271696.0,queued for weekly review
+ACT030,REG12,Reconcile first visit fix definition,Analytics,"Align numerator and denominator across lakehouse, BI, and operations extracts",11,12.5,383627.0,queued for weekly review
+ACT031,REG12,Refresh late status coaching packet,Field operations,Target districts with delayed completion updates and high repeat visits,12,18.4,296748.0,queued for weekly review
+ACT032,REG12,Add appointment dedupe assertion,Data platform,Block duplicate appointment events before gold KPI tables refresh,8,10.4,197496.0,queued for weekly review
+ACT033,REG11,Reconcile first visit fix definition,Analytics,"Align numerator and denominator across lakehouse, BI, and operations extracts",11,14.9,294448.0,ready for manager review
+ACT034,REG11,Refresh late status coaching packet,Field operations,Target districts with delayed completion updates and high repeat visits,12,21.4,319922.0,ready for manager review
+ACT035,REG11,Add appointment dedupe assertion,Data platform,Block duplicate appointment events before gold KPI tables refresh,8,11.4,533039.0,ready for manager review
+ACT036,REG09,Reconcile first visit fix definition,Analytics,"Align numerator and denominator across lakehouse, BI, and operations extracts",8,10.8,529784.0,queued for weekly review
+ACT037,REG09,Refresh late status coaching packet,Field operations,Target districts with delayed completion updates and high repeat visits,16,16.3,397199.0,ready for manager review
+ACT038,REG09,Add appointment dedupe assertion,Data platform,Block duplicate appointment events before gold KPI tables refresh,9,8.9,588468.0,queued for weekly review
+ACT039,REG08,Reconcile first visit fix definition,Analytics,"Align numerator and denominator across lakehouse, BI, and operations extracts",7,9.0,210991.0,needs data owner
+ACT040,REG08,Refresh late status coaching packet,Field operations,Target districts with delayed completion updates and high repeat visits,12,19.2,239910.0,queued for weekly review
+ACT041,REG08,Add appointment dedupe assertion,Data platform,Block duplicate appointment events before gold KPI tables refresh,5,8.4,391695.0,queued for weekly review
+ACT042,REG07,Reconcile first visit fix definition,Analytics,"Align numerator and denominator across lakehouse, BI, and operations extracts",8,8.8,384564.0,ready for manager review
+ACT043,REG07,Refresh late status coaching packet,Field operations,Target districts with delayed completion updates and high repeat visits,12,16.1,271834.0,ready for manager review
+ACT044,REG07,Add appointment dedupe assertion,Data platform,Block duplicate appointment events before gold KPI tables refresh,4,7.6,215168.0,needs data owner

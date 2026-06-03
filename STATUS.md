@@ -1,7 +1,6 @@
 # Status
 
-- Project: Field Service Lakehouse KPI Control Tower
-- GitHub: https://github.com/Saurav-Kanegaonkar/Field-Service-Lakehouse-KPI-Control-Tower
-- Status: complete
-- Resume Link Ready: Yes
-- Last update: Created to locked pipeline standards with multiple data sources, analysis artifacts, scripts, screenshot, and distinct artifact framing.
+- Status: upgraded through the Portfolio Artifact Upgrade Workflow.
+- Safe to link as a field service data analyst portfolio artifact after changes are pushed.
+- README uses company-domain language and does not name the target company.
+- Synthetic data is disclosed in the README, data README, and project scope.
